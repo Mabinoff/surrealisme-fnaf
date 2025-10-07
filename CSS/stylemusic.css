@@ -1,0 +1,68 @@
+body 
+{
+	width: 800px;
+	margin: auto;
+	background-color: black ;
+	font-family: 'consolas';
+	background : url(images/favicon.ico) no-repeat top left black;
+	background-size: 100px;
+}
+.t1
+{
+	color:white;
+	text-align: center;
+}
+.mp3
+{
+	width : 500px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+.t2
+{
+	color:rgb(191, 191, 191);
+	text-align: center;
+}
+.hist1
+{
+	width : 375px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+.bouton
+{
+	text-align: center;
+	color: white;
+	font-family: 'consolas';
+	text-decoration: none;
+}
+.fin
+{
+	width : 500px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+button {
+	background-color: white;
+	border: black;
+	border-radius: 6px;
+	color: black;
+	padding: 15px 2%;
+	text-align: center;
+	display: center;
+	font-size: 90%;
+	margin: 4px 2px;
+	cursor: pointer;
+	border: 2px solid white;
+}
+button {transition-duration: 0.4s;}
+	 
+.accueil:hover {background-color: rgb(102, 51, 0);color: white;}
+.histoire:hover {background-color:  rgb(138,43,226);color: white;}
+.sur:hover {background-color: rgb(255, 255, 51);color: black;}
+.secret:hover {background-color: rgb(153, 0, 0);color: white;}
+.commu:hover {background-color: purple;color: white;}
+.credit:hover {background-color: goldenrod;color: white;}
